@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 @RequestMapping("/api")
-public class MyController {
+public class TodoController {
 
     @RequestMapping("/todo")
     @ResponseBody
